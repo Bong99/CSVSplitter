@@ -55,6 +55,8 @@ for line in fin:
     fout = open(foutname, 'w')
     print ('Created File [' + foutname + ']')
 
+fout.write('\n')
+fout.close()
 print('***Done***') 
 fin.close()
 
